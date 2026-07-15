@@ -74,7 +74,6 @@ class _SessionsScreen extends State<SessionsScreen> {
 
     return Scaffold(
       body: SafeArea(
-        bottom: false,
         child: CustomScrollView(
           slivers: [
             SliverToBoxAdapter(child: _buildTitle()),

@@ -36,7 +36,6 @@ class _ScheduleScreen extends State<ScheduleScreen> {
       body: Stack(
         children: [
           SafeArea(
-            bottom: false,
             child: ListView.separated(
               shrinkWrap: true,
               padding: const EdgeInsets.only(top: 116, left: 16, right: 16, bottom: 24),
